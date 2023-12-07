@@ -4,6 +4,8 @@
  */
 package attendancemanagementsystem;
 
+import java.awt.EventQueue;
+
 /**
  *
  * @author admin
@@ -17,5 +19,16 @@ public class AttendanceManagementSystem {
         // TODO code application logic here
         //mainFrame frame = new mainFrame();
         //frame.setVisible(true);
+        LoginSignupApp window;
+        window = new LoginSignupApp();
+        window.frame.setVisible(true);
+                
+        EventQueue.invokeLater(() -> {
+            try {
+
+            } catch (Exception e) {
+            }
+        });
     }
 }
+
